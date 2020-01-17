@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Sardinia.svg/1200px-Flag_of_Sardinia.svg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.citta{
+    height: 300px;
+    width: 400px;
+    background-image: url(http://www.sardiniaturismo.eu/wp-content/uploads/2012/07/san_teodoro.jpg);
+    background-size: cover;
+    position: relative;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px 5px 5px 5px;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: rgba(255, 255, 255, 0,1);
+    transform: translate(-50%,-50%);
+
+}
+.nebida{
+    background-image: url(http://www.bequaliasardegna.com/wp-content/uploads/2017/10/pan-di-zucchero-nebida-sulcis-bq-sardegna-1920.jpg);
+}
+
+.barumini {
+    background-image: url(http://www.capoterraturismo.it/wp-content/uploads/2019/09/barumini-nuraghe-nadir-sardinia-2484x1550-1024x639.jpg);
+}
