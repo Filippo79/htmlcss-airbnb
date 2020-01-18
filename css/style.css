@@ -5,7 +5,6 @@
 }
 
 .container {
-    position: relative;
     width: 100vw;
     height: 100vh;
     background-image: url(https://sardegnaremix.files.wordpress.com/2014/03/000.jpg);
@@ -25,17 +24,32 @@
     border-width: 5px 5px 5px 5px;
 }
 
-h1 {
-    color: white;
+.overlay {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0,2);
+}
+
+.testo {
     position: absolute;
+    color: white;
     left: 50%;
     top: 50%;
-    background-color: rgba(255, 255, 255, 0,3);
     transform: translate(-50%,-50%);
-
 }
-.nebida{
-    background-image: url(http://www.bequaliasardegna.com/wp-content/uploads/2017/10/pan-di-zucchero-nebida-sulcis-bq-sardegna-1920.jpg);
+
+ /* h1 { primo caso senza div classe testo*/
+    position: absolute;
+    color:white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+/* Non mi si vede più l'immagine giusta ????? */
+.nebida {
+    background-image: url(http://www.autocaravan.it/images/sardegna_mare/Iglesias-Pan%20di%20zucchero%20Masua.jpg);
 }
 
 .barumini {
