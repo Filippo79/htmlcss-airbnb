@@ -7,51 +7,42 @@
 .container {
     width: 100vw;
     height: 100vh;
-    background-image: url(https://sardegnaremix.files.wordpress.com/2014/03/000.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url(http://3.bp.blogspot.com/-ZA5jjEZil18/UZs7lrzRnxI/AAAAAAAAD-g/10BIByGdLbY/s1600/Beautiful-clouds-blue-sky-white-clouds_1920x1080.jpg);
+    object-fit: cover;
 }
 
 .citta{
-    height: 230px;
+    height: 240px;
     width: 450px;
-    background-image: url(http://www.sardiniaturismo.eu/wp-content/uploads/2012/07/san_teodoro.jpg);
-    background-size: cover;
     position: relative;
-    margin: 0 auto;
+    /* usare margin auto ??? */
+    left: 50%;
+    transform: translate(-50%);
+    background-color: lightgrey;
     border-style: solid;
-    border-color: white;
-    border-width: 5px 5px 5px 5px;
+    border-color: black;
+    border-width:5px 5px 5px 5px;
 }
 
 .overlay {
+    position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(255, 255, 255, 0,2);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
-.testo {
-    position: absolute;
-    color: white;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
+img {
+    height:100%;
+    width:100%;
+    object-fit: cover;
 }
 
- /* h1 { primo caso senza div classe testo*/
+h1 {
     position: absolute;
     color:white;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-}
-/* Non mi si vede più l'immagine giusta ????? */
-.nebida {
-    background-image: url(http://www.autocaravan.it/images/sardegna_mare/Iglesias-Pan%20di%20zucchero%20Masua.jpg);
-}
-
-.barumini {
-    background-image: url(http://www.capoterraturismo.it/wp-content/uploads/2019/09/barumini-nuraghe-nadir-sardinia-2484x1550-1024x639.jpg);
 }
