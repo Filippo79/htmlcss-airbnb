@@ -15,9 +15,7 @@
     height: 240px;
     width: 450px;
     position: relative;
-    /* usare margin auto ??? */
-    left: 50%;
-    transform: translate(-50%);
+    margin: 0 auto;
     background-color: lightgrey;
     border-style: solid;
     border-color: black;
